@@ -1,3 +1,113 @@
-.days{
-    background-color: red;
+.body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: rgb(209, 209, 209);
+}
+
+.card {
+    width: 550px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputOfToDoList {
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(34, 28, 28, 30%);
+    outline: none;
+    font-weight: 600;
+}
+
+.inputOfToDoList:focus {
+    border: 1px solid rgba(34, 28, 28, 80%);
+}
+
+.searhBarDiv {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 28, 28);
+    border: 3px solid rgb(34, 28, 28);
+    border-radius: 50%;
+    margin-left: 15px;
+    color: white;
+    transition: all .5s;
+}
+
+.searhBarDiv:hover {
+    background-color: white;
+    color: rgb(34, 28, 28);
+}
+
+.listDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.singleDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconsOfEdit {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all .5s;
+    color: rgba(34, 28, 28, 50%);
+}
+
+.iconsOfEdit:hover {
+    color: rgba(34, 28, 28, 80%);
+}
+
+.deleteListDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 10px auto;
+}
+
+.deleteListDiv button {
+    width: 80%;
+    background-color: rgb(34, 28, 28);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid rgb(34, 28, 28);
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.deleteListDiv button:hover {
+    background-color: transparent;
+    color: rgb(34, 28, 28);
 }
