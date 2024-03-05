@@ -5,6 +5,8 @@ import "./page.css";
 import { faPenToSquare, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
+
+// home page component
 export default function Home() {
   let [mainArr, setMainArr] = useState([]);
   let [inputTxt, setInputTxt] = useState("");
