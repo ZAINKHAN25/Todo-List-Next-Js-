@@ -22,6 +22,8 @@ export default function Home() {
     }
   }
 
+  
+
   function delteFoo(index) {
     var selectedItem = mainArr.splice(index, 1);
     setMainArr([...mainArr])
